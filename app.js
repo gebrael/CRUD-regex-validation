@@ -59,7 +59,7 @@ function handleDelete() {
 }
 
 function handleVisit() {
-  //   var book = event.target.parentElement.parentElement;
-  //   var bookIndex = book.rowIndex - 1;
-  //   window.open(books[bookIndex].link);
+  var book = event.target.parentElement.parentElement;
+  var bookIndex = book.rowIndex - 1;
+  window.open(books[bookIndex].link);
 }
